@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36717.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService.gRPC", "PaymentService.gRPC.csproj", "{D9DCBAF8-9FCB-403B-AA53-B321939B798B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9DCBAF8-9FCB-403B-AA53-B321939B798B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9DCBAF8-9FCB-403B-AA53-B321939B798B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9DCBAF8-9FCB-403B-AA53-B321939B798B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9DCBAF8-9FCB-403B-AA53-B321939B798B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B607610F-26CA-4C0D-8F22-98E030735842}
+	EndGlobalSection
+EndGlobal
