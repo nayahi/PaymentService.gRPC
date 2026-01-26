@@ -1,6 +1,6 @@
 # See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
 # Etapa 1: Build
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
 WORKDIR /src
 
 # Copiar archivo de proyecto y restaurar dependencias
@@ -17,7 +17,7 @@ RUN dotnet build "PaymentService.gRPC.csproj" -c Release -o /app/build
 RUN dotnet publish "PaymentService.gRPC.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 # Etapa 2: Runtime
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
+FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS runtime
 WORKDIR /app
 
 # Crear directorio para logs
